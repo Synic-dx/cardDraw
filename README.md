@@ -20,4 +20,4 @@ console.log(cardDraw()) // returns a randomly selected card as an object
 console.log(cardDraw().suit) //returns the suit of the randomly drawn card
 ```
 
-Returns a randomly chosen card as an object. **Adjust the 'value' property of the cards in accordance with the relevant game rules.**
+Returns a randomly chosen card as an object. **Adjust the 'value' property of the cards in accordance with the relevant game rules. Also, keep/remove the 'splice' method depending on whether you want the drawn card being replaced or separated from the deck**

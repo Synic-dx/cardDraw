@@ -11,7 +11,7 @@ const deck = [
     { suit: 'Hearts', type: 'J', value: 10 },
     { suit: 'Hearts', type: 'Q', value: 10 },
     { suit: 'Hearts', type: 'K', value: 10 },
-    { suit: 'Hearts', type: 'A', value: 11 },
+    { suit: 'Hearts', type: 'A', value: 1 },
     { suit: 'Diamonds', type: '2', value: 2 },
     { suit: 'Diamonds', type: '3', value: 3 },
     { suit: 'Diamonds', type: '4', value: 4 },
@@ -24,7 +24,7 @@ const deck = [
     { suit: 'Diamonds', type: 'J', value: 10 },
     { suit: 'Diamonds', type: 'Q', value: 10 },
     { suit: 'Diamonds', type: 'K', value: 10 },
-    { suit: 'Diamonds', type: 'A', value: 11 },
+    { suit: 'Diamonds', type: 'A', value: 1 },
     { suit: 'Clubs', type: '2', value: 2 },
     { suit: 'Clubs', type: '3', value: 3 },
     { suit: 'Clubs', type: '4', value: 4 },
@@ -37,7 +37,7 @@ const deck = [
     { suit: 'Clubs', type: 'J', value: 10 },
     { suit: 'Clubs', type: 'Q', value: 10 },
     { suit: 'Clubs', type: 'K', value: 10 },
-    { suit: 'Clubs', type: 'A', value: 11 },
+    { suit: 'Clubs', type: 'A', value: 1 },
     { suit: 'Spades', type: '2', value: 2 },
     { suit: 'Spades', type: '3', value: 3 },
     { suit: 'Spades', type: '4', value: 4 },
@@ -50,16 +50,13 @@ const deck = [
     { suit: 'Spades', type: 'J', value: 10 },
     { suit: 'Spades', type: 'Q', value: 10 },
     { suit: 'Spades', type: 'K', value: 10 },
-    { suit: 'Spades', type: 'A', value: 11 }
-  ];
+    { suit: 'Spades', type: 'A', value: 1 }
+];
 
-  function cardDraw() { 
-    
+function cardDraw() { 
     const index = Math.floor(Math.random() * deck.length);
-    const card = deck[index];
-  
+    const card = deck.splice(index, 1)[0]; // Removes the card from the deck
     return card;
-
 }
 
 export default cardDraw;
