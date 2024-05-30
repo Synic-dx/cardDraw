@@ -54,6 +54,10 @@ const deck = [
 ];
 
 export function cardDraw() { 
+    if (deck.length === 0) {
+        throw new Error("All cards have been drawn"); // Throws error if deck is empty
+    }
+
     const index = Math.floor(Math.random() * deck.length);
     const card = deck.splice(index, 1)[0]; // Removes the card from the deck
     return card;
@@ -61,7 +65,7 @@ export function cardDraw() {
 
 export function cardDrawReplacement() {
     const index = Math.floor(Math.random() * deck.length);
-    const card = deck[index];
+    const card = deck[index]; // Does not remove the card from the deck
   
     return card;
 }
