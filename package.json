@@ -1,0 +1,27 @@
+{
+  "name": "card-draw",
+  "version": "1.0.0",
+  "description": "NPM Module to randomly draw a card from a full deck.",
+  "main": "cardDraw.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synic-dx/cardDraw.git"
+  },
+  "keywords": [
+    "card",
+    "draw",
+    "random-draw",
+    "card-game",
+    "deck",
+    "deck-draw"
+  ],
+  "author": "Shinjan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Synic-dx/cardDraw/issues"
+  },
+  "homepage": "https://github.com/Synic-dx/cardDraw#readme"
+}
