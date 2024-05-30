@@ -53,10 +53,15 @@ const deck = [
     { suit: 'Spades', type: 'A', value: 1 }
 ];
 
-function cardDraw() { 
+export function cardDraw() { 
     const index = Math.floor(Math.random() * deck.length);
     const card = deck.splice(index, 1)[0]; // Removes the card from the deck
     return card;
 }
 
-export default cardDraw;
+export function cardDrawReplacement() {
+    const index = Math.floor(Math.random() * deck.length);
+    const card = deck[index];
+  
+    return card;
+}

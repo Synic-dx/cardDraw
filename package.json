@@ -1,6 +1,6 @@
 {
   "name": "card-draw",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM Package to randomly draw a card from a full deck.",
   "main": "cardDraw.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "random-draw",
     "card-game",
     "deck",
-    "deck-draw"
+    "deck-draw",
+    "blackjack",
+    "card-game-engine"
   ],
   "author": "Shinjan",
   "license": "MIT",

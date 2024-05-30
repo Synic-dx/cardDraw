@@ -14,10 +14,16 @@ npm install card-draw
 ### Usage
 
 ``` javascript
-import cardDraw from 'card-draw';
+import cardDraw from 'card-draw'; // if you don't want the drawn card to be replaced in the deck
+import cardDrawReplacement from 'card-draw' // if you want the card to be replaced in the deck
 
-console.log(cardDraw()) // returns a randomly selected card as an object
-console.log(cardDraw().suit) //returns the suit of the randomly drawn card
+console.log(cardDraw()) // returns a randomly selected card as an object and removes it from the deck
+console.log(cardDraw().suit) //returns the suit of the randomly drawn card and removes it from the deck
+
+console.log(cardDrawReplacement()) // returns a randomly selected card as an object and keeps it back in the deck
+console.log(cardDraw().suit) //returns the suit of the randomly drawn card and keeps it back in the deck
 ```
 
-Returns a randomly chosen card as an object. **Adjust the 'value' property of the cards in accordance with the relevant game rules. Also, keep/remove the 'splice' method depending on whether you want the drawn card being replaced or separated from the deck**
+### Notes
+
+**Adjust the 'value' property of the cards in accordance with the relevant game rules.**
