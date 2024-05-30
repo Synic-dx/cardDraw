@@ -1,3 +1,6 @@
+[![NPM Version](https://img.shields.io/npm/v/card-draw?style=flat)](https://www.npmjs.com/package/card-draw) [![NPM License](https://img.shields.io/npm/l/card-draw)](https://www.npmjs.com/package/card-draw) [![NPM Downloads](https://img.shields.io/npm/dm/card-draw?style=flat)](https://www.npmjs.com/package/card-draw) [![NPM Total Downloads](https://img.shields.io/npm/dt/card-draw?style=flat)](https://www.npmjs.com/package/card-draw)
+
+
 # cardDraw
 
 NPM Package to randomly draw a card from a full deck.

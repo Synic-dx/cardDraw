@@ -1,6 +1,6 @@
 {
   "name": "card-draw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM Module to randomly draw a card from a full deck.",
   "main": "cardDraw.js",
   "scripts": {
