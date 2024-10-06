@@ -21,7 +21,7 @@ console.log(cardDraw()) // returns a randomly selected card as an object and rem
 console.log(cardDraw().suit) //returns the suit of the randomly drawn card and removes it from the deck
 
 console.log(cardDrawReplacement()) // returns a randomly selected card as an object and keeps it back in the deck
-console.log(cardDraw().suit) //returns the suit of the randomly drawn card and keeps it back in the deck
+console.log(cardDrawReplacement().suit) //returns the suit of the randomly drawn card and keeps it back in the deck
 ```
 
 ### Notes
